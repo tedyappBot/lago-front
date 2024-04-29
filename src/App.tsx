@@ -35,6 +35,7 @@ const App = () => {
 
       setClient(apolloClient)
     }
+    
     // eslint-disable-next-line no-console
     initApolloClient().catch((err) => console.error(err))
     initializeTranslations()
